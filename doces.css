@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(rgb(255, 0, 191), rgb(0, 153, 255));
+    font-family: 'Sansita', sans-serif;
+}
+
+#inicio {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 350px;
+    right: 100px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(247, 244, 244);
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 34px;
+}
+
+.cardapio {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.cardapio li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.cardapio li:hover {
+    border-color: red;
+}
+
+.cardapio li:active {
+    border-color: rgb(255, 0, 242);
+}
+
+.cardapio li:hover h2 {
+    font-size: 34px;
+}
+
+.cardapio h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url(parede.jpg);
+    padding: 40px 0;
+}
+
+.Copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
